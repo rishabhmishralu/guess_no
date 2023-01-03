@@ -1,0 +1,76 @@
+.box1{
+    border: 2px solid gray;
+    margin: 20px;
+    background-color: rgb(110, 11, 110);
+    padding: 50px;
+    border-radius: 15px;
+}
+p{
+    text-align: center;
+    color: rgb(246, 40, 40);
+    text-shadow: 3px,  chartreuse;
+}
+.enter-num{
+ display: flex;
+ justify-content: center;
+ 
+}
+.Guess{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-shadow: 2px 2px aliceblue;;
+}
+.button{
+ background-color: burlywood;
+ border-radius: 15px;
+ width: 115px;
+ height: 50px;
+}
+
+
+.button:hover{
+    background-color: blueviolet;
+}
+
+.card{
+  border: 5px double black;
+   display: none;
+   box-shadow: 3px 3px 3px ;
+
+ }
+.win{ 
+     display: flex;
+    justify-content: center;
+    position: relative;
+    top: -402px;}
+
+.return{
+    background-color: darkslategray;
+    color: crimson;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: cursive;
+}
+/* .corner{
+    position: relative;
+width: 30px;
+height: 30px;
+background-image: radial-gradient(red,lightgreen,yellow);
+border: 2px solid black;
+border-radius: 25px;
+animation-name: rotate;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+/* animation-direction: reverse; */
+/* }
+@keyframes rotate {
+    
+    0%   {background-color: red;top:-500px;left:0px;}
+    25%  {background-color: yellow; top:-500px;left:100%;}
+    75%  {background-color: blue; top:0px;left:100%;}
+    100% {background-color: green; top:0px;left:0px;} */
+/* } */ 
