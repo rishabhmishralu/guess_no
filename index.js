@@ -35,11 +35,12 @@ let x = Math.floor(Math.random() * 21);
 console.log(x);
 
 
-function tryagain(){
-  document.querySelector(".box1").style.filter= "blur(0px)"
-  document.querySelector(".card").style.display = "none"
-  // history.go(0);
-    // document.location.reload();
+// function tryagain(){
+//   document.querySelector(".box1").style.filter= "blur(0px)"
+//   document.querySelector(".card").style.display = "none"
+
+//   // history.go(0);
+//     // document.location.reload();
   
-}
-tryagain()
+// }
+// tryagain()
